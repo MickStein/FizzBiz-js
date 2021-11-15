@@ -3,6 +3,12 @@ class Javabuzz {
     return (number % divisor === 0);
   }
 
+  says(number) {
+    if (this.isDivisibleByThree(number)) {
+      return "Java";
+    }
+  }
+
   isDivisibleByThree(number) {
     return this._isDivisibleBy(number, 3);
   }
