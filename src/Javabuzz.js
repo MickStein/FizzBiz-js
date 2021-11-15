@@ -27,4 +27,15 @@ class Javabuzz {
   isDivisibleByFifteen(number) {
     return this._isDivisibleBy(number, 15);
   }
+
+  logNumbers() {
+    let index = 0;
+    let currentNumber;
+
+    while (index <= 100) {
+      currentNumber = this.says(index);
+      console.log(currentNumber);
+      index++;
+    }
+  }
 }
